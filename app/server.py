@@ -8,10 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/file/d/1k0lcH3_PqSlKh5F4_2EJdON6ifi0bnpC/view?usp=sharing'
+export_file_name = 'football1.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['arizona_cardinals', 'dallas_cowboys', 'los_angeles_rams', 'new_york_giants', 'philadelphia_eagles', 'san_francisco_49ers', 'seattle_seahawks', 'washington_redskins']
 path = Path(__file__).parent
 
 app = Starlette()
