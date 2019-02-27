@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/file/d/1k0lcH3_PqSlKh5F4_2EJdON6ifi0bnpC/view?usp=sharing'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1k0lcH3_PqSlKh5F4_2EJdON6ifi0bnpC'
 export_file_name = 'football1.pkl'
 
 classes = ['arizona_cardinals', 'dallas_cowboys', 'los_angeles_rams', 'new_york_giants', 'philadelphia_eagles', 'san_francisco_49ers', 'seattle_seahawks', 'washington_redskins']
